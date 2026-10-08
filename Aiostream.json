@@ -1,0 +1,640 @@
+# Aiostream
+{
+  "services": [
+    {
+      "id": "realdebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "alldebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "premiumize",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "debridlink",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "torbox",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "stremio_nntp",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "nzbdav",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "aiostreams",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "altmount",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "offcloud",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "putio",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "easynews",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "easydebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "debrider",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "pikpak",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "seedr",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "stremthru_newz",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "torrin",
+      "enabled": false,
+      "credentials": {}
+    }
+  ],
+  "presets": [
+    {
+      "type": "torrentio",
+      "instanceId": "57a",
+      "enabled": true,
+      "options": {
+        "name": "Torrentio",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "providers": [],
+        "mediaTypes": [],
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "comet",
+      "instanceId": "c8b",
+      "enabled": true,
+      "options": {
+        "name": "Comet",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "includeP2P": false,
+        "removeTrash": true,
+        "scrapeDebridAccountTorrents": false,
+        "useMultipleInstances": false,
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "meteor",
+      "instanceId": "a4d",
+      "enabled": true,
+      "options": {
+        "name": "Meteor",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "includeP2P": false,
+        "removeTrash": true,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "mediafusion",
+      "instanceId": "88c",
+      "enabled": true,
+      "options": {
+        "name": "MediaFusion",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "certificationLevelsFilter": [],
+        "nudityFilter": [],
+        "mediaTypes": [],
+        "useCachedResultsOnly": true,
+        "enableWatchlistCatalogs": false,
+        "includeP2P": false,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "stremthruTorz",
+      "instanceId": "7f9",
+      "enabled": true,
+      "options": {
+        "name": "StremThru Torz",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "includeP2P": false,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "peerflix",
+      "instanceId": "f1a",
+      "enabled": true,
+      "options": {
+        "name": "Peerflix",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "useMultipleInstances": false,
+        "showTorrentLinks": false
+      }
+    },
+    {
+      "type": "torrents-db",
+      "instanceId": "f51",
+      "enabled": true,
+      "options": {
+        "name": "TorrentsDB",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "providers": [
+          "yts",
+          "1337x",
+          "torrentcsv",
+          "1lou",
+          "nyaa",
+          "sktorrent",
+          "1tamilblasters",
+          "limetorrent",
+          "1tamilmv",
+          "rargb",
+          "knaben",
+          "thepiratebay",
+          "kickasstorrents",
+          "animetosho",
+          "extremlymtorrents",
+          "yggtorrent",
+          "tokyotosho",
+          "rutor",
+          "rutracker",
+          "torrent9",
+          "ilcorsaronero",
+          "manual"
+        ],
+        "includeP2P": false,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "hdhub",
+      "instanceId": "607",
+      "enabled": true,
+      "options": {
+        "name": "HdHub",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "tb_only": false
+      }
+    },
+    {
+      "type": "flix-streams",
+      "instanceId": "e6d",
+      "enabled": true,
+      "options": {
+        "name": "Flix-Streams",
+        "timeout": 30000,
+        "resources": [
+          "stream"
+        ]
+      }
+    },
+    {
+      "type": "tmdb-addon",
+      "instanceId": "c27",
+      "enabled": true,
+      "options": {
+        "name": "The Movie Database",
+        "timeout": 30000,
+        "resources": [
+          "catalog",
+          "meta"
+        ],
+        "Enable Adult Content": true,
+        "hideEpisodeThumbnails": false,
+        "provideImdbId": false,
+        "language": "es-MX"
+      }
+    }
+  ],
+  "formatter": {
+    "id": "gdrive",
+    "definitions": {
+      "custom": {
+        "name": "{stream.resolution::exists[\"{stream.resolution::replace('2160p','4K ')::replace('1440p','QHD ')::replace('1080p','FHD ')::replace('720p','HD ')::replace('576p','LQ ')::replace('480p','LQ ')::replace('360p','LQ ')::replace('240p','LQ ')::replace('144p','LQ ')}\"||\"❗️ Unknown \"]}{service.cached::istrue[\"⚡ Ready \"||\"⏳ Not Ready \"]}\n{stream.nSeScore::exists[\"{stream.nSeScore::pstar::string::replace('⯪','½')}\"||\"\"]}\n",
+        "description": "{stream.title::exists[\"🎬 {stream.title} \"||\"\"]}{stream.year::exists[\"({stream.year}) \"||\"\"]}{stream.editions::exists[\"✂️ {stream.editions::join(', ')} \"||\"\"]}{stream.seasonEpisode::exists[\"📅 {stream.seasonEpisode::join(' ')} \"||\"\"]}\n{addon.name::exists[\"☁️ {addon.name} \"||\"\"]}{service.name::exists[\"🔗 {service.name}\"||\"\"]} {stream.indexer::exists[\"📡 {stream.indexer}\"||\"\"]}\n{stream.languages::exists[\"💬 {stream.languages::join(' / ')} \"||\"\"]} {stream.size::exists[\"💾 {stream.size::bytes} \"||\"\"]}\n"
+      }
+    }
+  },
+  "preferredQualities": [
+    "BluRay REMUX",
+    "BluRay",
+    "WEB-DL",
+    "WEBRip",
+    "HDRip",
+    "HC HD-Rip",
+    "DVD REMUX",
+    "DVDRip",
+    "HDTV",
+    "CAM",
+    "TS",
+    "TC",
+    "SCR",
+    "Unknown"
+  ],
+  "preferredResolutions": [
+    "2160p",
+    "1440p",
+    "1080p",
+    "720p",
+    "576p",
+    "480p",
+    "360p",
+    "240p",
+    "144p",
+    "Unknown"
+  ],
+  "excludedQualities": [
+    "CAM",
+    "SCR",
+    "TS",
+    "TC"
+  ],
+  "excludedVisualTags": [
+    "3D"
+  ],
+  "sortCriteria": {
+    "global": [
+      {
+        "key": "language",
+        "direction": "desc"
+      },
+      {
+        "key": "subtitle",
+        "direction": "desc"
+      },
+      {
+        "key": "resolution",
+        "direction": "desc"
+      },
+      {
+        "key": "quality",
+        "direction": "desc"
+      },
+      {
+        "key": "cached",
+        "direction": "desc"
+      },
+      {
+        "key": "library",
+        "direction": "desc"
+      },
+      {
+        "key": "streamExpressionScore",
+        "direction": "desc"
+      },
+      {
+        "key": "regexPatterns",
+        "direction": "desc"
+      },
+      {
+        "key": "streamType",
+        "direction": "desc"
+      },
+      {
+        "key": "visualTag",
+        "direction": "desc"
+      },
+      {
+        "key": "audioTag",
+        "direction": "desc"
+      },
+      {
+        "key": "audioChannel",
+        "direction": "desc"
+      },
+      {
+        "key": "encode",
+        "direction": "desc"
+      },
+      {
+        "key": "size",
+        "direction": "desc"
+      }
+    ],
+    "cached": [],
+    "uncached": [],
+    "movies": [],
+    "cachedMovies": [],
+    "uncachedMovies": [],
+    "series": [],
+    "cachedSeries": [],
+    "uncachedSeries": [],
+    "anime": [],
+    "cachedAnime": [],
+    "uncachedAnime": []
+  },
+  "posterService": "rpdb",
+  "deduplicator": {
+    "enabled": true,
+    "keys": [
+      "filename",
+      "infoHash"
+    ],
+    "multiGroupBehaviour": "aggressive",
+    "cached": "single_result",
+    "uncached": "per_service",
+    "p2p": "single_result",
+    "http": "disabled",
+    "live": "disabled",
+    "youtube": "disabled",
+    "external": "disabled",
+    "smartDetectAttributes": [
+      "size",
+      "resolution",
+      "quality",
+      "visualTags",
+      "audioTags",
+      "audioChannels",
+      "languages",
+      "encode",
+      "edition",
+      "network",
+      "remastered"
+    ],
+    "smartDetectRounding": 10,
+    "libraryBehaviour": "ignore",
+    "excludeAddons": [],
+    "merge": {
+      "fields": []
+    }
+  },
+  "autoPlay": {
+    "enabled": true,
+    "method": "matchingFile",
+    "attributes": [
+      "resolution",
+      "quality",
+      "releaseGroup"
+    ]
+  },
+  "cacheAndPlay": {
+    "enabled": false,
+    "streamTypes": [
+      "usenet"
+    ]
+  },
+  "statistics": {
+    "enabled": false,
+    "position": "bottom",
+    "statsToShow": [
+      "addon",
+      "filter",
+      "timing"
+    ],
+    "showFilterStatsOnNoStreams": true
+  },
+  "digitalReleaseFilter": {
+    "enabled": false,
+    "tolerance": 0,
+    "requestTypes": [],
+    "addons": [],
+    "showInfoOnFilter": true
+  },
+  "ageRangeTypes": [
+    "usenet"
+  ],
+  "seasonEpisodeMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "episodeTitleMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "languageInference": {
+    "enabled": true,
+    "sources": []
+  },
+  "yearMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "titleMatching": {
+    "addons": [],
+    "requestTypes": []
+  },
+  "precacheNextEpisode": false,
+  "precacheSingleStream": true,
+  "precacheSelector": "count(cached(streams)) == 0 ? uncached(streams) : []",
+  "enableSeadex": true,
+  "regexOverrides": [],
+  "checkOwned": true,
+  "proxy": {
+    "id": "mediaflow",
+    "proxiedServices": [],
+    "proxiedAddons": []
+  },
+  "failover": {
+    "contentTypes": [
+      "usenet"
+    ]
+  },
+  "catalogModifications": [
+    {
+      "id": "c27e3b0.tmdb.trending",
+      "name": "Trending",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.trending",
+      "name": "Trending",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.top",
+      "name": "Popular",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.top",
+      "name": "Popular",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.year",
+      "name": "Year",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.year",
+      "name": "Year",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.search",
+      "name": "Search",
+      "type": "movie",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.search",
+      "name": "Search",
+      "type": "series",
+      "enabled": true,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": false,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.language",
+      "name": "Language",
+      "type": "movie",
+      "enabled": false,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    },
+    {
+      "id": "c27e3b0.tmdb.language",
+      "name": "Language",
+      "type": "series",
+      "enabled": false,
+      "shuffle": false,
+      "usePosterService": false,
+      "hideable": true,
+      "searchable": false,
+      "addonName": "The Movie Database"
+    }
+  ],
+  "excludeUncachedFromAddons": [],
+  "excludeUncachedFromServices": [],
+  "excludeUncachedFromStreamTypes": [],
+  "excludeCachedFromAddons": [],
+  "excludeCachedFromServices": [],
+  "excludeCachedFromStreamTypes": [],
+  "preferredEncodes": [],
+  "preferredStreamTypes": [],
+  "preferredVisualTags": [],
+  "preferredAudioTags": [],
+  "requiredResolutions": [],
+  "excludedResolutions": [],
+  "includedResolutions": [],
+  "requiredLanguages": [],
+  "excludedLanguages": [],
+  "includedLanguages": [],
+  "preferredLanguages": [
+    "Latino",
+    "Spanish"
+  ],
+  "requiredSubtitles": [],
+  "excludedSubtitles": [],
+  "includedSubtitles": [],
+  "preferredSubtitles": [
+    "Latino",
+    "Spanish"
+  ],
+  "seederRangeTypes": [],
+  "hideErrorsForResources": []
+}
